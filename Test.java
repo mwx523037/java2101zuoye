@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Test {
     public static void main(String[] args) {
-        Student student = new Student("张静",29, Arrays.asList("唱歌","跳舞"));
+        Student student = new Student("宋厚宇",29, Arrays.asList("唱歌","跳舞"));
         String stuJson=JSON.toJSON(student).toString();
         System.out.println(stuJson);
 
