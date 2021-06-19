@@ -9,7 +9,7 @@ public class Test {
         System.out.println(stuJson);
 
         //json字符串转化为对象宋厚宇
-        String stuJson2 = "{\"skills\":[\"唱歌\",\"跳舞\"],\"name\":\"徐伟\",\"age\":29}";
+        String stuJson2 = "{\"ski士大夫lls\":[\"唱歌\",\"跳舞\"],\"name\":\"徐伟\",\"age\":29}";
         Student student1 = JSON.parseObject(stuJson2,Student.class);
         System.out.println("转化为学生对象："+student1.getName());
     }
